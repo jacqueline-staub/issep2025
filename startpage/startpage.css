@@ -1,0 +1,106 @@
+/*startpage*/
+
+.heroContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../src/uni_trier.jpg");
+}
+
+.heroContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.heroContainer > div > h1 {
+  margin: 0;
+  font-size: 36pt;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.heroContainer > div > h2 {
+  margin: 0;
+  font-size: 24pt;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.heroContainer > div > a {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  font-size: var(--font-size-default);
+  text-decoration: none;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.heroContainer > div > a:hover {
+  background-color: var(--primary-color-hover);
+  transform: scale(105%);
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .heroContainer {
+    margin-top: 0px;
+    aspect-ratio: 16/9;
+  }
+
+  .heroContainer > div {
+    gap: 10px;
+  }
+
+  .heroContainer > div > h1 {
+    font-size: 28pt;
+  }
+
+  .heroContainer > div > h2 {
+    font-size: 18pt;
+  }
+
+  .heroContainer > div > a {
+    padding: 15px;
+    font-size: var(--font-size-default-mobile);
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .heroContainer {
+    margin-top: 0px;
+  }
+
+  .heroContainer > div > h1 {
+    font-size: var(--font-size-h1-mobile);
+  }
+
+  .heroContainer > div > h2 {
+    font-size: var(--font-size-default-mobile);
+  }
+
+  .heroContainer > div > a {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: var(--font-size-default-mobile);
+  }
+  
+}

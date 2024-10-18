@@ -1,0 +1,39 @@
+/*layout*/
+
+body {
+  margin: 0;
+}
+
+
+
+.main {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .main {
+    margin-top: calc(48px + 56px);
+  }
+
+}
+
+
+
+.main > .mainContainer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.main > .mainContainer p {
+  line-height: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .main > .mainContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}

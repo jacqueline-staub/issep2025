@@ -1,0 +1,93 @@
+/*Fonts*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+
+
+* {
+  font-family: Roboto;
+}
+
+h1 {
+	font-size: var(--font-size-h1);
+}
+
+h2 {
+	font-size: var(--font-size-h2);
+}
+
+h3 {
+	font-size: var(--font-size-h3);
+}
+
+h4 {
+	font-size: var(--font-size-h4);
+}
+
+h5 {
+	font-size: var(--font-size-h5);
+}
+
+h6 {
+	font-size: var(--font-size-default);
+	font-weight: 700;
+}
+
+p {
+	font-size: var(--font-size-default);
+	text-align: justify;
+}
+
+li {
+	font-size: var(--font-size-default);
+}
+
+button {
+	font-size: var(--font-size-default);
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+	h1 {
+		font-size: var(--font-size-h1-mobile);
+	}
+	
+	h2 {
+		font-size: var(--font-size-h2-mobile);
+	}
+	
+	h3 {
+		font-size: var(--font-size-h3-mobile);
+	}
+	
+	h4 {
+		font-size: var(--font-size-h4-mobile);
+	}
+	
+	h5 {
+		font-size: var(--font-size-h5-mobile);
+	}
+	
+	h6 {
+		font-size: var(--font-size-default-mobile);
+	}
+	
+	p {
+		font-size: var(--font-size-default-mobile);
+	}
+
+	li {
+		font-size: var(--font-size-default-mobile);
+	}
+
+	button {
+		font-size: var(--font-size-default-mobile);
+	}
+		
+}

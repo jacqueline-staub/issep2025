@@ -1,0 +1,17 @@
+/*global stylesheet - imports all stylesheets of components*/
+
+
+
+/*global*/
+@import "styles/variables.css";
+@import "styles/fonts.css";
+@import "styles/buttons.css";
+
+@import "styles/layout.css";
+
+
+
+/*components*/
+@import "startpage/startpage.css";
+@import "navigation/navigation.css";
+@import "footer/footer.css";
