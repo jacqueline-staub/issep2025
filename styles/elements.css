@@ -1,0 +1,154 @@
+/*elements used in main*/
+
+
+
+/*headings and line-height*/
+
+.mainContainer > h1,
+.mainContainer > h2,
+.mainContainer > h3,
+.mainContainer > h4,
+.mainContainer > h5,
+.mainContainer > h6 {
+  margin-top: 40px;
+}
+
+.mainContainer > h1:first-of-type {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.main > .mainContainer p,
+.main > .mainContainer li {
+  line-height: 2;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .mainContainer > h1:first-of-type {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+}
+
+
+
+/*different styled main container*/
+.mainContainerAlternative {
+  background-color: var(--secondary-color);
+}
+
+
+
+/*flexbox*/
+.flexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+  gap: 20px;
+}
+
+.reverseFlex {
+  flex-direction: row-reverse;
+}
+
+.flexContainer > div {
+  width: 50%;
+}
+
+/*for improved mobile view: always use image as first item and
+add class "reverseFlex" if you want it to be on the right at the desktop version*/
+.flexContainer > div > img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .flexContainer {
+    flex-wrap: wrap;
+  }
+
+  .flexContainer > div {
+    width: 100%;
+  }
+
+}
+
+
+
+/*Images*/
+
+.mainContainer img {
+  width: 100%;
+}
+
+.mainContainer figure {
+  margin: 20px;
+}
+
+.mainContainer figure figcaption {
+  font-style: italic;
+  font-size: var(--font-size-small);
+}
+
+.mainContainer .floatingImage {
+  float: right;
+  width: 33%;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .mainContainer .floatingImage {
+    float: none;
+    width: 100%;
+    margin: 0;
+    font-size: var(--font-size-small-mobile);
+  }
+
+}
+
+
+
+/*Tables*/
+.mainContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mainContainer th {
+  text-align: center;
+}
+
+.mainContainer th,
+.mainContainer td {
+  padding: 10px;
+}
+
+.mainContainer .visibleTable th,
+.mainContainer .visibleTable td {
+  border: 1px solid black;
+}
+
+.mainContainer .visibleTable tr:nth-child(odd) td {
+  background-color: rgb(230, 230, 230);
+}
+
+.mainContainer .visibleTable tr:nth-child(odd) th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+
+  table {
+    display: block;
+    overflow-x: scroll;
+    max-width: 100%;
+  }
+
+}

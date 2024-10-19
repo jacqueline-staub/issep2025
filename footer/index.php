@@ -29,7 +29,3 @@
 </div>
 
 </body>
-
-<?php include "scripts/index.php" ?>
-
-</html>

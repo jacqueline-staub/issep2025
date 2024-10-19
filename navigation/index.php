@@ -1,7 +1,9 @@
 <div class="header">
-  
-  <h1>ISSEP 2025</h1>
-  <h2>The 18th International Conference on Informatics in Schools</h2>
+
+    <a href="http://localhost/issep2025/index.php">
+      <h1>ISSEP 2025</h1>
+      <h2>The 18th International Conference on Informatics in Schools</h2>
+    </a>
 
 </div>
 
@@ -10,8 +12,10 @@
   <button class="nav_btn"> Menu </button>
 
   <div class="nav_heading">  
-    <h1>ISSEP 2025</h1>
-    <h2>The 18th International Conference on Informatics in Schools</h2>
+    <a href="http://localhost/issep2025/index.php">
+      <h1>ISSEP 2025</h1>
+      <h2>The 18th International Conference on Informatics in Schools</h2>
+    </a>
   </div>
 
   <div class="nav_wrapper">
@@ -19,7 +23,7 @@
     <ul>
 
       <li>
-        <a href="">Submissions</a>
+        <a href="http://localhost/issep2025/submissions/">Submissions</a>
         <ul>
           <li>
             <a href="">Guidelines (Springer)</a>

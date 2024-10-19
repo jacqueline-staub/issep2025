@@ -9,7 +9,7 @@
 
   <title>ISSEP 2025</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="http://localhost/issep2025/styles.css">
   
 </head>
 
