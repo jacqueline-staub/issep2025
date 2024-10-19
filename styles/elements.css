@@ -79,6 +79,14 @@ add class "reverseFlex" if you want it to be on the right at the desktop version
 
 
 
+/*I-Frames*/
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 1px solid black;
+}
+
+
 /*Images*/
 
 .mainContainer img {
