@@ -33,22 +33,10 @@
 
   .header h1 {
     margin: 0;
+    white-space: nowrap;
     font-size: var(--font-size-h2-mobile);
   }
   
-  .header h2 {
-    margin: 0;
-    font-size: var(--font-size-default-mobile);
-  }
-  
-}
-
-@media only screen and (max-width: 500px) {
-
-  .header h2 {
-    display: none;
-  }
-
 }
 
 
@@ -301,12 +289,8 @@
 
 .nav_heading h1 {
   margin: 0;
-  font-size: var(--font-size-h4);
-}
-
-.nav_heading h2 {
-  margin: 0;
-  font-size: var(--font-size-small);
+  white-space: nowrap;
+  font-size: var(--font-size-h1);
 }
 
 @media only screen and (max-width: 1000px) {

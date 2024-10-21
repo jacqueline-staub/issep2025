@@ -2,7 +2,6 @@
 
     <a href="http://localhost/issep2025/index.php">
       <h1>ISSEP 2025</h1>
-      <h2>The 18th International Conference on Informatics in Schools</h2>
     </a>
 
 </div>
@@ -14,7 +13,6 @@
   <div class="nav_heading">  
     <a href="http://localhost/issep2025/index.php">
       <h1>ISSEP 2025</h1>
-      <h2>The 18th International Conference on Informatics in Schools</h2>
     </a>
   </div>
 
