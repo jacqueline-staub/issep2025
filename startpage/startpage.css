@@ -15,12 +15,16 @@
 }
 
 .heroContainer > div {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  background-color: rgb(0, 0, 0, 0.3);
 }
 
 .heroContainer > div > h1 {
